@@ -1,0 +1,162 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 75px;
+}
+
+/* Header */
+.header {
+  height: 72px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  color: #e5e7eb;
+  font-size: 24px;
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* Hero section */
+#hero {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 100px;
+  height: 50vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900px;
+  color: #f9faf8;
+  margin: 0px;
+}
+
+.title-cta {
+  width: 390px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 100px;
+}
+
+/* information */
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+}
+
+.info-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.box-container {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info-image {
+  border-radius: 12px;
+  width: 240px;
+  border-style: solid;
+}
+
+/* Quote section */
+#quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.q-text {
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+  margin-bottom: auto;
+  font-style: italic;
+}
+.q-name {
+  font-weight: bold;
+}
+
+/* CTA */
+#cta {
+  display: flex;
+  justify-content: center;
+}
+.cta-box {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+  width: 900px;
+}
+.top-text {
+  font-weight: bold;
+}
+.sign-up {
+  border-style: solid;
+  border-width: 1px;
+  width: 100px;
+}
+
+/* footer */
+.footer {
+  height: 72px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
